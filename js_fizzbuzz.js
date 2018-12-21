@@ -1,0 +1,11 @@
+for (i=0;i<99;i++) {
+  let out = ""
+
+  if (i % 3 == 0) {
+    out += "fizz"
+  } else if (i % 5 == 0) {
+    out += "buzz"
+  }
+
+  console.log(i, out)
+}
